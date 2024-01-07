@@ -1,0 +1,33 @@
+# pack-refs with: peeled fully-peeled sorted 
+e4c64d50c386970c0b7896b7860704aa7a560b47 refs/remotes/origin/coverity_scan
+7537f666f799e52a866529532bbfe221adc442de refs/remotes/origin/libxdp-dead-code
+1df4bcb67eba4cfaa1a72b6c1d9ab4c04aaa7a8d refs/remotes/origin/master
+57a139f9bf6ef644f9c1deb4f7df4bb4c76d6179 refs/remotes/origin/v1.2
+b1f72360213a6f87a0c783206026231b4207a26e refs/remotes/origin/widen-ci
+b32e9ad1bda525245a280bb7595214cf7dc1dd58 refs/remotes/origin/xdp-hw-meta
+69827a07b395b78a2b577c3e1af6075f8c47fdd8 refs/tags/show
+7f10b9ad8c9536a43c7c92acce0adc522f6c0773 refs/tags/v0.0.1
+be925545cc61b595ca5b7990434edcfd271f00b5 refs/tags/v0.0.2
+eadc74d48e3ad7d94db23dc3f339275444820d4c refs/tags/v0.0.3
+9a368e9b94d00375715298fa834adfd7662d454f refs/tags/v1.0.0
+9617619c59c36b94d2d3736e02a44bd738acce59 refs/tags/v1.0.0-beta1
+8ba1d699ebe236c74a7ac87569ec50545941ddd5 refs/tags/v1.0.0-beta2
+9f937905edb18a4d39616c73f92c7728f354d3b8 refs/tags/v1.0.0-beta3
+^2889ee85d910a3c2b5357215a496c2c6df8f5fed
+7ef4abefad078b1f6da4b9fad5f8ec407c95b8de refs/tags/v1.0.1
+7392cc999410e6da4144e579bbf7e249baefe455 refs/tags/v1.1.0
+69827a07b395b78a2b577c3e1af6075f8c47fdd8 refs/tags/v1.1.1
+d0be4a03840d13954ea75b0b9901f90510b790d2 refs/tags/v1.2.0
+edb2c82bd7bd475ebc9a81d35c1e1aa365df5bde refs/tags/v1.2.1
+57a139f9bf6ef644f9c1deb4f7df4bb4c76d6179 refs/tags/v1.2.10
+739e25fbf37c5d0707c31a18ca140595537613cc refs/tags/v1.2.2
+f1b14b0a7610d8a63fd6615f0dcaa65ac5c02211 refs/tags/v1.2.3
+c8a576dcd64cc30c0185623f2794d7c74ceb2a82 refs/tags/v1.2.4
+6c0836d280d3b76f6a9b99aca6c5b8eeb6959c91 refs/tags/v1.2.5
+f75767c8bff0254fb14490807d8cfdeda89967df refs/tags/v1.2.6
+226512574f738c9f9e903f8485a23861378f9f2d refs/tags/v1.2.7
+d4ff1f9bcf8b03556b625ab6e16958598482e861 refs/tags/v1.2.8
+e13a19163223006dfde735ee8fad67bdaecacc1f refs/tags/v1.2.9
+fbb17e84d16da5ad89e9e3bb8c0579ebdccafbe1 refs/tags/v1.3.0
+5e98c0bd83f7d036b0cc8316208118acab5f8d19 refs/tags/v1.3.1
+a8e8c7bb7ab6447594a9feb52e51d05fc127d780 refs/tags/v1.4.0

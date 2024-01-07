@@ -1,0 +1,39 @@
+In file included from xdp_test5_kern.c:10:
+./../common/parsing_helpers.h:109:15: warning: comparison of distinct pointer types ('struct vlan_hdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+                if (vlh + 1 > data_end)
+                    ~~~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:142:15: warning: comparison of distinct pointer types ('struct ipv6hdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (ip6h + 1 > data_end)
+            ~~~~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:158:14: warning: comparison of distinct pointer types ('struct iphdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (iph + 1 > data_end)
+            ~~~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:182:17: warning: comparison of distinct pointer types ('struct icmp6hdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (icmp6h + 1 > data_end)
+            ~~~~~~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:197:16: warning: comparison of distinct pointer types ('struct icmphdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (icmph + 1 > data_end)
+            ~~~~~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:212:12: warning: comparison of distinct pointer types ('struct icmphdr_common *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (h + 1 > data_end)
+            ~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:231:12: warning: comparison of distinct pointer types ('struct udphdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (h + 1 > data_end)
+            ~~~~~ ^ ~~~~~~~~
+./../common/parsing_helpers.h:254:12: warning: comparison of distinct pointer types ('struct tcphdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (h + 1 > data_end)
+            ~~~~~ ^ ~~~~~~~~
+In file included from xdp_test5_kern.c:11:
+./../common/rewrite_helpers.h:37:14: warning: comparison of distinct pointer types ('struct vlan_hdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (vlh + 1 > data_end)
+            ~~~~~~~ ^ ~~~~~~~~
+./../common/rewrite_helpers.h:56:14: warning: comparison of distinct pointer types ('struct ethhdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (eth + 1 > data_end)
+            ~~~~~~~ ^ ~~~~~~~~
+./../common/rewrite_helpers.h:90:14: warning: comparison of distinct pointer types ('struct ethhdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (eth + 1 > data_end)
+            ~~~~~~~ ^ ~~~~~~~~
+./../common/rewrite_helpers.h:100:14: warning: comparison of distinct pointer types ('struct vlan_hdr *' and 'void *') [-Wcompare-distinct-pointer-types]
+        if (vlh + 1 > data_end)
+            ~~~~~~~ ^ ~~~~~~~~
+12 warnings generated.

@@ -1,0 +1,136 @@
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:54:2: error: redefinition of enumerator 'BPF_REG_0'
+        BPF_REG_0 = 0,
+        ^
+/usr/include/linux/bpf.h:54:2: note: previous definition is here
+        BPF_REG_0 = 0,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:55:2: error: redefinition of enumerator 'BPF_REG_1'
+        BPF_REG_1,
+        ^
+/usr/include/linux/bpf.h:55:2: note: previous definition is here
+        BPF_REG_1,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:56:2: error: redefinition of enumerator 'BPF_REG_2'
+        BPF_REG_2,
+        ^
+/usr/include/linux/bpf.h:56:2: note: previous definition is here
+        BPF_REG_2,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:57:2: error: redefinition of enumerator 'BPF_REG_3'
+        BPF_REG_3,
+        ^
+/usr/include/linux/bpf.h:57:2: note: previous definition is here
+        BPF_REG_3,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:58:2: error: redefinition of enumerator 'BPF_REG_4'
+        BPF_REG_4,
+        ^
+/usr/include/linux/bpf.h:58:2: note: previous definition is here
+        BPF_REG_4,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:59:2: error: redefinition of enumerator 'BPF_REG_5'
+        BPF_REG_5,
+        ^
+/usr/include/linux/bpf.h:59:2: note: previous definition is here
+        BPF_REG_5,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:60:2: error: redefinition of enumerator 'BPF_REG_6'
+        BPF_REG_6,
+        ^
+/usr/include/linux/bpf.h:60:2: note: previous definition is here
+        BPF_REG_6,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:61:2: error: redefinition of enumerator 'BPF_REG_7'
+        BPF_REG_7,
+        ^
+/usr/include/linux/bpf.h:61:2: note: previous definition is here
+        BPF_REG_7,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:62:2: error: redefinition of enumerator 'BPF_REG_8'
+        BPF_REG_8,
+        ^
+/usr/include/linux/bpf.h:62:2: note: previous definition is here
+        BPF_REG_8,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:63:2: error: redefinition of enumerator 'BPF_REG_9'
+        BPF_REG_9,
+        ^
+/usr/include/linux/bpf.h:63:2: note: previous definition is here
+        BPF_REG_9,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:64:2: error: redefinition of enumerator 'BPF_REG_10'
+        BPF_REG_10,
+        ^
+/usr/include/linux/bpf.h:64:2: note: previous definition is here
+        BPF_REG_10,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:65:2: error: redefinition of enumerator '__MAX_BPF_REG'
+        __MAX_BPF_REG,
+        ^
+/usr/include/linux/bpf.h:65:2: note: previous definition is here
+        __MAX_BPF_REG,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:71:8: error: redefinition of 'bpf_insn'
+struct bpf_insn {
+       ^
+/usr/include/linux/bpf.h:71:8: note: previous definition is here
+struct bpf_insn {
+       ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:80:8: error: redefinition of 'bpf_lpm_trie_key'
+struct bpf_lpm_trie_key {
+       ^
+/usr/include/linux/bpf.h:80:8: note: previous definition is here
+struct bpf_lpm_trie_key {
+       ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:85:8: error: redefinition of 'bpf_cgroup_storage_key'
+struct bpf_cgroup_storage_key {
+       ^
+/usr/include/linux/bpf.h:85:8: note: previous definition is here
+struct bpf_cgroup_storage_key {
+       ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:90:7: error: redefinition of 'bpf_iter_link_info'
+union bpf_iter_link_info {
+      ^
+/usr/include/linux/bpf.h:90:7: note: previous definition is here
+union bpf_iter_link_info {
+      ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:838:6: error: redefinition of 'bpf_cmd'
+enum bpf_cmd {
+     ^
+/usr/include/linux/bpf.h:838:6: note: previous definition is here
+enum bpf_cmd {
+     ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:839:2: error: redefinition of enumerator 'BPF_MAP_CREATE'
+        BPF_MAP_CREATE,
+        ^
+/usr/include/linux/bpf.h:839:2: note: previous definition is here
+        BPF_MAP_CREATE,
+        ^
+In file included from xdp_pass_kern.c:4:
+./../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h:840:2: error: redefinition of enumerator 'BPF_MAP_LOOKUP_ELEM'
+        BPF_MAP_LOOKUP_ELEM,
+        ^
+/usr/include/linux/bpf.h:840:2: note: previous definition is here
+        BPF_MAP_LOOKUP_ELEM,
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [../common/common.mk:116: xdp_pass_kern.o] Error 1

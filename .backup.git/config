@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/xdp-project/xdp-tutorial.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "lib/libbpf"]
+	active = true
+	url = https://github.com/libbpf/libbpf
+[submodule "lib/xdp-tools"]
+	active = true
+	url = https://github.com/xdp-project/xdp-tools

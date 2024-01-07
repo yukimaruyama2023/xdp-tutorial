@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled sorted 
+6f77219ab667ff19430d6bcb17836daee6622966 refs/remotes/origin/advanced03-AF_XDP01
+627f7fa5283f45d4de6e1614d78d752b486d4c86 refs/remotes/origin/ansible01-setup
+a7c575976072459e604c0e9ef3710cd6eae4ce4b refs/remotes/origin/common-makefile
+2d9ef6f6206d5ad7ed6ac66f21debd513eb56c25 refs/remotes/origin/libbpf-update
+7c515b64f38b7209f9bc620c581d016779b000ae refs/remotes/origin/master
+51fec4222d7ff19253c71c2cb1ad3437b341aff3 refs/remotes/origin/program-usage-improvements
+d162ad0038e1a4fe58cb8e9abec9f949ac8846ce refs/remotes/origin/router-debug
+525487443fd3bba87d671e2f52cbbda2265d03d5 refs/remotes/origin/tailgrow01.public
+4a627a53f53e30c1de66d6f7de4bc84e9cd3e416 refs/remotes/origin/tailgrow02.public
+344191124593c32497505606075524ed8e5b24df refs/remotes/origin/tailgrow03.public
+9f4737a9c95a5e641898f9fadd48848d1c58ef24 refs/remotes/origin/testenv-verbose
+84702648454e7f1464451983020c855c08e9302f refs/remotes/origin/tutorial18-hardware-offload
+d03ad3a247c4d9af8dc6bad1d175b2cd714ab38e refs/remotes/origin/tutorial22-xdp-parsing-experiment
+5ff87e083f2f2cb71fb9a0fe1e3798930880e3c3 refs/remotes/origin/tutorial26-advanced
+fa6958c23b8a07fdee3343c872658b611faefceb refs/remotes/origin/tutorial27-advanced-btf
+cd9c0c147cba862d6f330b775421097adc92f1c2 refs/remotes/origin/tutorial29-improve-parsing
+c2b44a22018ca460d96e982b2f094561cf6673eb refs/remotes/origin/tutorial32-improve-parsing
+2bb3dbccfed41438ba36f9038abafefb3173b3f0 refs/remotes/origin/tutorial32-improve-parsing-rebase01.public
+6d684d3e1b3b0e7222d5f51a1cb420ebc25105d6 refs/remotes/origin/xdp-monitor01
+b89ec9362bebec0b985c7541f80c77694ec0ef7c refs/tags/2019-03-18-netdev0x13
+^e5c708bc443089924b2e8c0f1c9dffa083e71117

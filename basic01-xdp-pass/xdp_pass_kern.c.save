@@ -1,0 +1,22 @@
+
+
+/* SPDX-License-Identifier: GPL-2.0 */
+// #ifndef XDP_PROG_SIMPLE_H
+// #define XDP_PROG_SIMPLE_H
+
+#include <linux/bpf.h>
+// #include <linux/printk.h>
+#include <bpf/bpf_helpers.h>
+// #include "../../../build_kernel/home/ubuntu-jammy/include/uapi/linux/bpf.h"
+
+SEC("xdp")
+int  xdp_prog_simple(struct xdp_md *ctx)
+{
+    bpf_store42();
+//    printk("test\n");
+	return XDP_DROP;
+}
+
+char _license[] SEC("license") = "GPL";
+
+// #endif 

@@ -1,0 +1,62 @@
+In file included from xdp_pass_kern.c:3:
+In file included from ../lib/install/include/bpf/bpf_helpers.h:11:
+../lib/install/include/bpf/bpf_helper_defs.h:78:83: error: unknown type name '__u64'
+static long (*bpf_map_update_elem)(void *map, const void *key, const void *value, __u64 flags) = (void *) 2;
+                                                                                  ^
+../lib/install/include/bpf/bpf_helper_defs.h:102:42: error: unknown type name '__u32'
+static long (*bpf_probe_read)(void *dst, __u32 size, const void *unsafe_ptr) = (void *) 4;
+                                         ^
+../lib/install/include/bpf/bpf_helper_defs.h:114:16: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u64 (*bpf_ktime_get_ns)(void) = (void *) 5;
+               ^
+../lib/install/include/bpf/bpf_helper_defs.h:114:8: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u64 (*bpf_ktime_get_ns)(void) = (void *) 5;
+~~~~~~ ^
+../lib/install/include/bpf/bpf_helper_defs.h:114:14: error: function cannot return function type 'int (void)'
+static __u64 (*bpf_ktime_get_ns)(void) = (void *) 5;
+             ^
+../lib/install/include/bpf/bpf_helper_defs.h:177:50: error: unknown type name '__u32'
+static long (*bpf_trace_printk)(const char *fmt, __u32 fmt_size, ...) = (void *) 6;
+                                                 ^
+../lib/install/include/bpf/bpf_helper_defs.h:193:16: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u32 (*bpf_get_prandom_u32)(void) = (void *) 7;
+               ^
+../lib/install/include/bpf/bpf_helper_defs.h:193:8: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u32 (*bpf_get_prandom_u32)(void) = (void *) 7;
+~~~~~~ ^
+../lib/install/include/bpf/bpf_helper_defs.h:193:14: error: function cannot return function type 'int (void)'
+static __u32 (*bpf_get_prandom_u32)(void) = (void *) 7;
+             ^
+../lib/install/include/bpf/bpf_helper_defs.h:206:16: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u32 (*bpf_get_smp_processor_id)(void) = (void *) 8;
+               ^
+../lib/install/include/bpf/bpf_helper_defs.h:206:8: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]
+static __u32 (*bpf_get_smp_processor_id)(void) = (void *) 8;
+~~~~~~ ^
+../lib/install/include/bpf/bpf_helper_defs.h:206:14: error: function cannot return function type 'int (void)'
+static __u32 (*bpf_get_smp_processor_id)(void) = (void *) 8;
+             ^
+../lib/install/include/bpf/bpf_helper_defs.h:227:59: error: unknown type name '__u32'
+static long (*bpf_skb_store_bytes)(struct __sk_buff *skb, __u32 offset, const void *from, __u32 len, __u64 flags) = (void *) 9;
+                                                          ^
+../lib/install/include/bpf/bpf_helper_defs.h:227:91: error: unknown type name '__u32'
+static long (*bpf_skb_store_bytes)(struct __sk_buff *skb, __u32 offset, const void *from, __u32 len, __u64 flags) = (void *) 9;
+                                                                                          ^
+../lib/install/include/bpf/bpf_helper_defs.h:227:102: error: unknown type name '__u64'
+static long (*bpf_skb_store_bytes)(struct __sk_buff *skb, __u32 offset, const void *from, __u32 len, __u64 flags) = (void *) 9;
+                                                                                                     ^
+../lib/install/include/bpf/bpf_helper_defs.h:256:59: error: unknown type name '__u32'
+static long (*bpf_l3_csum_replace)(struct __sk_buff *skb, __u32 offset, __u64 from, __u64 to, __u64 size) = (void *) 10;
+                                                          ^
+../lib/install/include/bpf/bpf_helper_defs.h:256:73: error: unknown type name '__u64'
+static long (*bpf_l3_csum_replace)(struct __sk_buff *skb, __u32 offset, __u64 from, __u64 to, __u64 size) = (void *) 10;
+                                                                        ^
+../lib/install/include/bpf/bpf_helper_defs.h:256:85: error: unknown type name '__u64'
+static long (*bpf_l3_csum_replace)(struct __sk_buff *skb, __u32 offset, __u64 from, __u64 to, __u64 size) = (void *) 10;
+                                                                                    ^
+../lib/install/include/bpf/bpf_helper_defs.h:256:95: error: unknown type name '__u64'
+static long (*bpf_l3_csum_replace)(struct __sk_buff *skb, __u32 offset, __u64 from, __u64 to, __u64 size) = (void *) 10;
+                                                                                              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [../common/common.mk:116: xdp_pass_kern.o] Error 1

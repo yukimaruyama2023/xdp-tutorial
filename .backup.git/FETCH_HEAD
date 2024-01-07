@@ -1,0 +1,19 @@
+7c515b64f38b7209f9bc620c581d016779b000ae		branch 'master' of https://github.com/xdp-project/xdp-tutorial
+6f77219ab667ff19430d6bcb17836daee6622966	not-for-merge	branch 'advanced03-AF_XDP01' of https://github.com/xdp-project/xdp-tutorial
+627f7fa5283f45d4de6e1614d78d752b486d4c86	not-for-merge	branch 'ansible01-setup' of https://github.com/xdp-project/xdp-tutorial
+a7c575976072459e604c0e9ef3710cd6eae4ce4b	not-for-merge	branch 'common-makefile' of https://github.com/xdp-project/xdp-tutorial
+2d9ef6f6206d5ad7ed6ac66f21debd513eb56c25	not-for-merge	branch 'libbpf-update' of https://github.com/xdp-project/xdp-tutorial
+51fec4222d7ff19253c71c2cb1ad3437b341aff3	not-for-merge	branch 'program-usage-improvements' of https://github.com/xdp-project/xdp-tutorial
+d162ad0038e1a4fe58cb8e9abec9f949ac8846ce	not-for-merge	branch 'router-debug' of https://github.com/xdp-project/xdp-tutorial
+525487443fd3bba87d671e2f52cbbda2265d03d5	not-for-merge	branch 'tailgrow01.public' of https://github.com/xdp-project/xdp-tutorial
+4a627a53f53e30c1de66d6f7de4bc84e9cd3e416	not-for-merge	branch 'tailgrow02.public' of https://github.com/xdp-project/xdp-tutorial
+344191124593c32497505606075524ed8e5b24df	not-for-merge	branch 'tailgrow03.public' of https://github.com/xdp-project/xdp-tutorial
+9f4737a9c95a5e641898f9fadd48848d1c58ef24	not-for-merge	branch 'testenv-verbose' of https://github.com/xdp-project/xdp-tutorial
+84702648454e7f1464451983020c855c08e9302f	not-for-merge	branch 'tutorial18-hardware-offload' of https://github.com/xdp-project/xdp-tutorial
+d03ad3a247c4d9af8dc6bad1d175b2cd714ab38e	not-for-merge	branch 'tutorial22-xdp-parsing-experiment' of https://github.com/xdp-project/xdp-tutorial
+5ff87e083f2f2cb71fb9a0fe1e3798930880e3c3	not-for-merge	branch 'tutorial26-advanced' of https://github.com/xdp-project/xdp-tutorial
+fa6958c23b8a07fdee3343c872658b611faefceb	not-for-merge	branch 'tutorial27-advanced-btf' of https://github.com/xdp-project/xdp-tutorial
+cd9c0c147cba862d6f330b775421097adc92f1c2	not-for-merge	branch 'tutorial29-improve-parsing' of https://github.com/xdp-project/xdp-tutorial
+c2b44a22018ca460d96e982b2f094561cf6673eb	not-for-merge	branch 'tutorial32-improve-parsing' of https://github.com/xdp-project/xdp-tutorial
+2bb3dbccfed41438ba36f9038abafefb3173b3f0	not-for-merge	branch 'tutorial32-improve-parsing-rebase01.public' of https://github.com/xdp-project/xdp-tutorial
+6d684d3e1b3b0e7222d5f51a1cb420ebc25105d6	not-for-merge	branch 'xdp-monitor01' of https://github.com/xdp-project/xdp-tutorial
