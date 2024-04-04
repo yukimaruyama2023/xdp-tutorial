@@ -34,12 +34,8 @@ int xdp_icmp_echo_func(struct xdp_md *ctx)
     /* bpf_store42(); */
 
     /* Get metrics */
-    long cpu_metrics = 0;
-    bpf_get_user_cpu_metrics(&cpu_metrics);
-    long memory_metrics = 0;
-    bpf_get_memory_total(&memory_metrics);
-    /* long all_cpu_metrics[12]; */
     long all_cpu_metrics[10] = {0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0};
+    /* long all_cpu_metrics[10]; */
     bpf_get_all_cpu_metrics(all_cpu_metrics);
 
 	/* These keep track of the next header type and iterator pointer */
